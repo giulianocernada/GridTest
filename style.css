@@ -61,6 +61,8 @@ body {
 #welcome-desc {
 	margin: 0;
 	color: #C5C6C7;
+	font-size: 20px;
+	font-style: italic;
 }
 
 #grid-container {
@@ -148,6 +150,10 @@ footer {
 	font-size: 40px;
 	color: #66FCF1;
 	margin: 0;
-}
+	}
+
+	#nav-bar {
+	flex-direction: column;
+	}
 
 }
