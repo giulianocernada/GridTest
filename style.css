@@ -22,6 +22,11 @@ body {
 	align-items: center;
 }
 
+#logo-link {
+	text-decoration: none;
+	color: #0B0C10;
+}
+
 #cigimax-logo {
 	width: 25px;
 	height: 25px;
@@ -38,36 +43,55 @@ body {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	font-size: 20px;
 }
 
 .nav-item {
 	padding: 0 10px;
+/*	animation: move 400ms linear infinite;
+  	Set our animation play state to paused initially 
+  	animation-play-state: paused; */
 }
+
+.nav-item:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #FFFFFF;
+/*	animation-play-state: running;*/
+}
+
+/*@keyframes move {
+  100% {transform: translateY(10px);}
+}*/
 
 #welcome {
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-image: radial-gradient(#1F2833, #0B0C10);
+	/*background-image: radial-gradient(#1F2833, #0B0C10);*/
+	background-image: url(./Assets/BG1.jpg);
+	background-size: cover;
 }
 
 #welcome-title {
-	font-size: 50px;
+	font-size: 80px;
 	color: #66FCF1;
 	margin: 0;
+	text-shadow: 2px 2px 5px black;
 }
 
 #welcome-desc {
 	margin: 0;
 	color: #C5C6C7;
-	font-size: 20px;
+	font-size: 25px;
 	font-style: italic;
+	text-shadow: 1px 1px 5px black;
 }
 
 #grid-container {
 	background-color: #C5C6C7;
-	margin: 0 50px;
+	margin: 100px 50px 0px 50px;
 	padding: 40px;
 	display: grid;
 	grid-template-columns: repeat(3, auto);
@@ -136,6 +160,8 @@ footer {
 	color: #FFFFFF;
 	text-align: right;
 }
+
+
 
 @media (max-width: 700px) {
 
