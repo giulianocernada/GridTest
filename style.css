@@ -8,6 +8,8 @@ body {
 #nav-bar {
 	display: flex;
 	background-color: #66FCF1; 
+	/*background-color: #EC1B1B;*/
+/*	background-color: #BF0707;*/
 	align-items: center;
 	justify-content: space-around;
 	color: #0B0C10;
@@ -77,6 +79,7 @@ body {
 #welcome-title {
 	font-size: 80px;
 	color: #66FCF1;
+/*	color: #EC1B1B;*/
 	margin: 0;
 	text-shadow: 2px 2px 5px black;
 }
@@ -129,6 +132,7 @@ body {
 	align-items: center;
 	background-color: #0B0C10;
 	border-bottom: 5px solid #66FCF1;
+/*	border-bottom: 5px solid #EC1B1B;*/
 	padding: 150px 0px;
 }
 
